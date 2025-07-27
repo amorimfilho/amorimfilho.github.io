@@ -1,43 +1,42 @@
-
 {
   "name": "Blaster Game",
   "short_name": "Blaster",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#0f0f0f",
-  "orientation": "landscape",
   "description": "Jogo arcade de tiro com sombras e batalhas intergalácticas!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "id": "/blaster",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
   "icons": [
     {
       "src": "icons/icon-192x192.png",
-      "type": "image/png",
       "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "icons/icon-512x512.png",
-      "type": "image/png",
       "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any"
     }
   ],
   "screenshots": [
     {
-      "src": "screenshots/screen1.png",
+      "src": "screenshots/blaster-1.png",
       "type": "image/png",
-      "sizes": "800x600"
+      "sizes": "1080x1920"
     },
     {
-      "src": "screenshots/screen2.png",
+      "src": "screenshots/blaster-2.png",
       "type": "image/png",
-      "sizes": "800x600"
+      "sizes": "1080x1920"
     }
   ],
-  "launch_handler": {
-    "client_mode": "focus-existing"
-  },
-  "id": "/?source=pwa",
-  "categories": ["game", "arcade", "shooter"],
+  "categories": ["game", "arcade", "action"],
   "iarc_rating_id": "e10+"
 }
