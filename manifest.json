@@ -1,7 +1,7 @@
 {
   "name": "Blaster Game",
   "short_name": "Blaster",
-  "description": "Jogo arcade de tiro com sombras e batalhas intergalácticas!",
+  "description": "Jogo arcade de tiro com sombras e batalhas intergal\u00e1cticas!",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
@@ -43,6 +43,10 @@
       "sizes": "1080x1920"
     }
   ],
-  "categories": ["game", "arcade", "action"],
+  "categories": [
+    "game",
+    "arcade",
+    "action"
+  ],
   "iarc_rating_id": "e10+"
 }
